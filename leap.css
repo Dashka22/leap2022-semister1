@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-areas:   "header header"
+                        "content sidebar"
+                        "footer footer";
+grid-template-rows:    150px 1fr 100px;
+grid-template-columns: 1fr 200px;
+} 
+/* .box1{
+  background-color: black;
+  
+
+}
+.box2{
+  background-color: yellow;
+ grid-area: 2 / 3 / 3 / 4
+
+} */
+.box3{
+  background-color: red;
+  /* grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4; */
+  grid-row: header;
+  grid-column: header;
+}
